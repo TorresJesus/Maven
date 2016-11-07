@@ -10,15 +10,13 @@ public interface PersonaDao {
     
     void deletePersona(Persona persona);
 
-    Persona findPersonaById(int idPersona);
+    Persona findPersonaById(long idPersona);
 
     List<Persona> findAllPersonas();
     
     int contadorPersonasPorNombre(Persona persona);
 
 	int contadorPersonas();
-	
-	String getEmailByPersonaId(Persona persona);
 	
 	Persona getPersonaByEmail(Persona persona);
 }

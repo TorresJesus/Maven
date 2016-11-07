@@ -16,7 +16,7 @@ public class PersonaRowMapper implements RowMapper<Persona>{
 		//Creacion del objeto persona por cada 
 		//registro encontrado en el resultSet
 		Persona persona = new Persona();
-		persona.setIdPersona(rs.getLong("id_persona"));
+		persona.setIdPersona(rs.getLong("id_persona")); 
 		persona.setNombre(rs.getString("nombre"));
 		persona.setApePaterno(rs.getString("ape_paterno"));
 		persona.setApeMaterno(rs.getString("ape_materno"));

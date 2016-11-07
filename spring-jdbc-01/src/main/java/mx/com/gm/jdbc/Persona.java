@@ -14,7 +14,7 @@ public class Persona {
 
 	public Persona() {}
 	
-	public Persona(int idPersona) {
+	public Persona(long idPersona) {
 		this.idPersona = idPersona;
 	}
 
